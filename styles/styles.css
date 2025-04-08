@@ -27,6 +27,7 @@ p {
 }
 .main-section {
   background-color: var(--secondary-color);
+  text-align: center;
   padding: 160px 20px;
 }
 .main-section p {
@@ -35,14 +36,15 @@ p {
   margin: 0;
   color: #272142;
 }
-
-.btn-branding {
-  color: white;
-  background-color: var(--branding-color);
-  font-size: 18px;
-  border-radius: 4px;
-  line-height: 27px;
-  padding: 30px 30px;
+.contact {
   display: block;
-  text-align: center;
+  margin: 0 auto;
+}
+.btn-branding {
+  background: var(--branding-color);
+  border-radius: 4px;
+  color: white;
+  font-size: 18px;
+  line-height: 27px;
+  padding: 15px 30px;
 }
