@@ -36,9 +36,8 @@ nav li {
   margin-left: 15px;
   transition: all 100msease-in-out;
 }
-nav li:active a {
-  color: var(--branding-color);
-}
+
+nav li:active a,
 nav a:hover {
   color: var(--branding-color);
 }
@@ -127,10 +126,11 @@ p {
     margin: 0;
   }
   h1 {
-    font-size: 60px;
+    font-size: 30px;
   }
   h2 {
     font-weight: bolder;
+    font-size: 18px;
   }
   .btn-branding-outline {
     display: block;
@@ -139,7 +139,10 @@ p {
     text-align: center;
     padding: 0;
   }
-  nav {
-    display: none;
+  .content h3 {
+    font-size: 14px;
+  }
+  nav a {
+    font-size: 12px;
   }
 }
