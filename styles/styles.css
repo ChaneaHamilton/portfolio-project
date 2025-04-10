@@ -120,16 +120,58 @@ p {
   font-size: 18px;
   font-family: var(--default-font-family);
 }
-@media (max-width: 900px) {
+footer {
+  margin: 60px 0;
+}
+footer .contact-box {
+  background-color: var(--secondary-color);
+  padding: 30px 120px;
+  margin-bottom: 20px;
+  border-radius: 10px;
+}
+footer .contact-box p {
+  margin: 0;
+}
+footer .email-links {
+  text-decoration: none;
+  font-size: 24px;
+  color: black;
+}
+footer .email-links:hover {
+  color: var(--branding-color);
+}
+footer .social-links a {
+  color: var(--branding-color);
+  background-color: var(--secondary-color);
+  font-size: 18px;
+  padding: 10px 14px;
+  margin: 0 20px;
+  border-radius: 50%;
+  transition: all 100ms ease-in-out;
+}
+footer .social-links a:hover {
+  color: white;
+  background-color: var(--branding-color);
+}
+@media (max-width: 600px) {
   .project-description {
     padding: 0;
     margin: 0;
   }
+  .main-section h1 {
+    font-size: 60px;
+  }
   h1 {
-    font-size: 30px;
+    font-size: 40px;
+  }
+  .main-section h3 {
+    font-size: 40px;
   }
   h2 {
     font-weight: bolder;
+    font-size: 18px;
+  }
+  h4 {
     font-size: 18px;
   }
   .btn-branding-outline {
@@ -139,10 +181,16 @@ p {
     text-align: center;
     padding: 0;
   }
+  .content-container h1 {
+    font-size: 40px;
+  }
   .content h3 {
     font-size: 14px;
   }
   nav a {
     font-size: 12px;
+  }
+  footer .contact-box {
+    padding: 20px;
   }
 }
