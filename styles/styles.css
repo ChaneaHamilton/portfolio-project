@@ -57,7 +57,7 @@ p {
 .main-section {
   background-color: var(--secondary-color);
   text-align: center;
-  padding: 110px 20px;
+  padding: 60px 20px;
 }
 .main-section p {
   font-size: 36px;
@@ -98,7 +98,7 @@ p {
   border-radius: 10px;
 }
 .content-container {
-  padding: 100px 20px;
+  padding: 60px 20px;
 }
 .content {
   margin: 30px;
